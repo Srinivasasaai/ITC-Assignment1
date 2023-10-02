@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fonts</title>
+    <style>
+      @font-face {
+        font-family: 'FunkyFontzs';
+        src: url('fonts/CedarvilleCursive-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Fruktur';
+        src: url('fonts/Fruktur-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'MonsieurLaDoulaise';
+        src: url('fonts/MonsieurLaDoulaise-Regular.ttf');
+        font-weight: normal;
+        font-style: normal;
+      }
+      body{
+        padding-left: 30%;
+        padding-right: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-family: 'FunkyFontzs'">
+      Include Unique fonts in your Website
+    </h1>
+    <p><ol>
+      <li> First go through internet inoder to select a font that you like </li>
+      <li> Download the font file with suitable extension into your local repository 
+    </li>
+    <li> In this homework i have used a folder called fonts to save all the font
+      files </li>
+      <li>In the fonts folder i have downloaded a fontfile called CedarvilleCursive-Regular.ttf</li>
+      <li>Here we use "@font-face" rule which is a CSS rule used to specify a custom font <br>
+        for the text which can be loaded form the local or external server
+      </li>
+      <li>
+        The "@font-face" is used like this: either in the .css file or in the style tag in the head <br><br>
+        @font-face {<br>
+            font-family: 'FunkyFontzs';<br>
+            src: url('fonts/CedarvilleCursive-Regular.ttf');<br>
+            font-weight: normal;<br>
+            font-style: normal;<br>
+          } <br>
+          <br>
+          The url attribute in the font-face rule specifies the location of the font file in the repository <br>
+          The font is included to the heading of this website in the following way. <br> <br>
+          < h1 style="font-family: 'FunkyFontzs'">< /h1>br
+      </li>
+    </ol>
+    </p>
+<h2>Here are some more examples of unique fonts </h2>
+<ol>
+    <li><h3 style="font-family: 'Fruktur';">This is an example of the font Fruktur</h3></li>
+
+    <li><h3 style="font-family: 'FunkyFontzs';">This is an example of the font CedarvilleCursive</h3></li>
+    <li><h3 style="font-family: 'MonsieurLaDoulaise';">This is an example of the font MonsieurLaDoulaise</h3></li>
+</ol>
+  </body>
+</html>
