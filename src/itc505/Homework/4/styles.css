@@ -1,0 +1,109 @@
+body {
+    background-color: #ffffff;
+    max-width: 75%;
+    margin: auto;
+    padding: 5px;
+    box-shadow: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  div >h1{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1 {
+    color: #222222;
+    font-size: 34px;
+  }
+
+  h2 {
+    color: #333333;
+    font-size: 26px;
+  }
+  
+  h3 {
+    color: #444444;
+    font-size: 22px;
+  }
+  
+  p {
+    color: #555555;
+  }
+  
+  section {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  #Abstract {
+    background-color: #f5f5f5;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #introduction {
+    background-color: #f8f8f8;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #RiseOfMachines {
+    background-color: #fafafa;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #LackOfStudentAccessToMLContent {
+    background-color: #fcfcfc;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #images {
+    background-color: #ffffff;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #recomendations {
+    background-color: #f5f5f5;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #suggestions {
+    background-color: #fafafa;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #conclusion {
+    background-color: #ffffff;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #Acknowledgements {
+    background-color: #f4f4f4;
+margin-bottom: 10px;
+    border-radius: 10px;
+
+  }
+  
+  #References {
+    background-color: #ffffff;
+margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .addendum{
+    background-color: #f4f4f4;
+  }
