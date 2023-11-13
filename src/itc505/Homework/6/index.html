@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <header class="section">Palindrome Checker</header>
+      <div class="left-side">
+        <!-- As a link -->
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Section</a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Main</a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">About</a>
+          </div>
+        </nav>
+      </div>
+      <main class="section">
+        <input type="text" id="numberInput" placeholder="Enter a number" />
+        <button onclick="checkPalindrome()">Check</button>
+
+        <p id="result"></p>
+      </main>
+      <div class="right-side">
+        Advertisement <br />
+
+        <a
+          href="https://www.amazon.com/introducing-amazon-fire-tv-55-inch-omni-qled-series-smart-tv/dp/B09N6ZRH6C?ref_=Oct_d_obs_d_21489946011_1&pd_rd_w=MEFH3&content-id=amzn1.sym.64a9023b-57cb-4cca-be91-e6361229d063&pf_rd_p=64a9023b-57cb-4cca-be91-e6361229d063&pf_rd_r=GRP44NSDKYBW8MP8VDC9&pd_rd_wg=7f81r&pd_rd_r=a91a22c5-b778-4ee0-9872-3709c514b5d8&pd_rd_i=B09N6ZRH6C"
+          ><img
+            src="https://m.media-amazon.com/images/I/811YsT3rBLL._AC_SY300_SX300_.jpg"
+            alt="add goes here"
+        /></a>
+      </div>
+      <footer class="">
+        Addendum <br />
+        <p>
+          The JavaScript code for checking palindromes involves converting the
+          input number to a string, reversing the string, and comparing it to
+          the original string. If the original string and the reversed string
+          are equal, then the number is a palindrome. One challenge faced in
+          laying out the page was preventing the blocks from overlapping. This
+          was resolved by using CSS to set the appropriate grid layout and
+          margins for each section. Additionally, media queries were implemented
+          to ensure a responsive and user-friendly experience on smaller
+          screens.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
