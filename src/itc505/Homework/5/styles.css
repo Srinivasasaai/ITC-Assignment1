@@ -1,0 +1,60 @@
+img{
+  height: 400px;
+  width: 400px;
+  border-radius: 56px;
+    margin: 30px;
+    box-shadow: 0 0 200px cadetblue;
+
+}
+
+
+@font-face {
+    font-family: 'FunkyFontzs';
+    src: url('fonts/Haunting\ Attraction.ttf');
+    font-weight: normal;
+    font-style: normal;
+    
+  }
+.title{
+    font-size: 75px;
+
+}
+ h1{
+    font-family: FunkyFontzs;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 75px;
+ }
+  
+
+.main{
+    text-align: center;
+    background-image: url("images/home.png");
+    height: 49em;  
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    
+
+
+}
+button{
+    padding: 10px;
+    border-radius: 25px !important;
+    margin: 20px !important;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  #output {
+    margin: 20px;
+    padding: 20px;
+    max-height: fit-content;
+    font-size: larger;
+    font-weight: 600;
+  }
+  .reset{
+    display: block;
+  }
