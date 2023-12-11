@@ -16,7 +16,7 @@ body {
     position: absolute;
     height: 150%;
     width: 100%;
-    background-image: url("/lightsout.png");
+    background-image: url("lightsout.png");
     filter: blur(5px);
 z-index: -1;
 
