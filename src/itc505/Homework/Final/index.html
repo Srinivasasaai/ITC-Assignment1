@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lights Out Game</title>
+    <script src="/Final/script.js"></script>
+    <link rel="stylesheet" href="/Final/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="back"></div>
+    <h1>Lights Out</h1>
+    <div class="bg">
+      <div id="game" class="grid"></div>
+      <div id="info" class="info"></div>
+
+      <button id="startBtn" onclick="startGame()" class="btn">
+        Start Game
+      </button>
+      <button
+        id="restartBtn"
+        onclick="startGame()"
+        style="display: none; margin-left: 0.75em"
+        class="btn"
+      >
+        Restart Game
+      </button>
+    </div>
+    <div class="addendum">
+      <h3>Addendum</h3>
+      Understanding the Rules: I started by understanding the rules of the
+      Lights Out game, where clicking a cell toggles its state and the adjacent
+      cells. I clarified the goal of turning off all the lights on the grid and
+      the condition for winning. Technical Implementation: I implemented the
+      game logic using HTML, CSS, and JavaScript. The grid was dynamically
+      generated based on the chosen grid size. Each cell was made clickable to
+      toggle its state and the adjacent cells. Random Solvable Board Generation:
+      To create a solvable but random initial board, I initially faced the
+      challenge of avoiding unsolvable configurations. I implemented a function
+      that randomly toggles cells, ensuring a solvable starting point. <br />
+      Visual Design: Chose a simple and clean design to keep the focus on
+      gameplay. Used a monochrome color scheme to emphasize the on/off states of
+      the lights. Button Visibility: Implemented a button visibility toggle to
+      show either the "Start Game" or "Restart Game" button based on the game
+      state. This choice improves user experience by providing clear actions
+      based on the current state of the game. <br />
+      Random Board Generation: <br />
+
+      Challenge: Ensuring a randomly generated board is always solvable. <br />
+      Solution: Implemented a function that toggles cells randomly, guaranteeing
+      solvability. <br />
+      Button Visibility Toggle: <br />
+
+      Challenge: Managing the visibility of the "Start Game" and "Restart Game"
+      buttons. <br />
+      Solution: Created a function to toggle button visibility based on the game
+      state. <br />
+    </div>
+  </body>
+</html>
