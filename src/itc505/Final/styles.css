@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  h1,h3{
+    color: #ffffff !important;
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+  }
+  .back{
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    background-image: url("/Final/lightsout.png");
+    filter: blur(5px);
+z-index: -1;
+
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 2px;
+  }
+
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: #71f277;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .is-off {
+    background-color: #171717;
+    border-radius: 50%;
+  }
+  .btn{
+    background-color: #e7e7e7 !important;
+    height: 3em;
+    width: 7em;
+    font-size: 32px !important;
+  }
+.bg{
+    background-color: #5a5a58;
+    border-radius: 15px;
+    padding: 2em;
+    text-align: center;
+}
+.addendum{
+    color: white;
+    width: ;
+
+}
+  .info {
+    margin-top: 20px;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 1em;     
+  }
